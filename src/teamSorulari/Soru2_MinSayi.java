@@ -1,6 +1,6 @@
-package package7_arrays;
+package teamSorulari;
 
-public class MinSay {
+public class Soru2_MinSayi {
     public static void main(String[] args) {
          /*
          {{1,2,3}, {2,3,1} , {5,5,5} , {2,1,3}}
@@ -10,7 +10,7 @@ public class MinSay {
 
         int[][] arr = {{1,2,-1}, {2,3,1} , {5,5,5} , {2,1,3}};
 
-        int min=1;
+        int min= 1;
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j <arr[i].length ; j++) {
@@ -23,5 +23,4 @@ public class MinSay {
 
         System.out.println(min);
     }
-
 }
