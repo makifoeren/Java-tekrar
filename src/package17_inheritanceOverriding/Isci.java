@@ -1,4 +1,4 @@
-package package17_inheritanceOverrididing;
+package package17_inheritanceOverriding;
 
 public class Isci extends Personel{
 

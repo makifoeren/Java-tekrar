@@ -1,4 +1,4 @@
-package package17_inheritanceOverrididing;
+package package17_inheritanceOverriding;
 
 public class Ustabasi extends Isci {
 
@@ -34,6 +34,9 @@ public class Ustabasi extends Isci {
         System.out.println(yasin.haklar); //  "Ustabasi haftada birgun ekstra tatil hakkina sahiptir"
         System.out.println(yasin.izin); //Tum personel yilda 4 hafta izin kullanabilir
         System.out.println(yasin.ikramiye); // Isciler yilda bir kez ikramiye alir
+        yasin.maasHesapla();
+        yasin.mesai();
+
 
         Isci ahmet= new Ustabasi();
         System.out.println(ahmet.statu); // isci
@@ -48,7 +51,7 @@ public class Ustabasi extends Isci {
          */
 
         Personel adem=new Ustabasi();
-
+// data türü personel önce gidip oraya bakacak
         System.out.println(adem.statu); // personel
         System.out.println(adem.haklar); // Tum personel esit haklara sahiptir
         //System.out.println(adem.ikramiye); // CTE verir
@@ -68,7 +71,8 @@ public class Ustabasi extends Isci {
 
 
         /*
-        Personel adem=new Ustabasi();
+        Personel adem=new Ustabasi();   adem ustabasi dir ama data türü
+         personel secip, usta basi olan adem in personel olarak özelliklerini görmüs olduk
 
         adem'in data turu Personel'dir.
         boylece biz adem'i ne olarak isimlendirdigimizi bilebiliriz
@@ -82,6 +86,10 @@ public class Ustabasi extends Isci {
 
         Bu kullanim seklinde olusturulan obje data turu olarak secilen class
         ve onun parent class'larindaki variable'lari kullanabilir.
+        variable ivim baslangic noktasi data türü olan class tir
+
+        method larda
+
          */
 
 

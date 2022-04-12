@@ -42,6 +42,52 @@ public class Tanim {
 
     super. ide data veya variable icin kullanilir direk parent e gider
 
+    Method Overriding -- Parent class da varolan bir methodu medhod signature ini degistrirmeden
+    medhod bady sini degistirerek kullanmaya Method Overriding denir.
+
+    Nicin kullanilir -- Overriding kullanaranl child class in parent class taki methodu kendine
+    uyarlayarak (implement) kullanmasini saglamis oluruz,
+
+    Overriding yapildiginda parent class daki method Overridden Method (gecversiz)
+    child class daki methoda Overriding Method denir.
+
+    Ovverridin Kurallari
+    1 - Method Signature i  (method ismi ve parametreler) ayni olmali.
+    2 - Child class daki method (overriding method ) Access Modifier i parent class daki
+    method un (overridden) modifier in dan daha dar olamaz
+    privat default protected public  parent teki siralama child kisitlama yapamaz
+    3 - Overriding method covariant retun type kullanmalidir.
+    void veya primitiv olursa ayni olmak yorunda
+    void--void
+    string--strig cocugin daha genis olmamali
+    4 - private, static and final method lar overriding yapilamaz
+    Parent class taki privat method a child class tan ulasmamiz mümkün olmadigan
+    java bu iki method u farkli kabul eder
+    @Override kullanmak istersen bile kabul etmez CTE verir
+
+    Polymorphism = Overloading + Overriding
+    bir method un farkli farkli sekilde kullanmak demek
+   -- Overloading bir compile time (static)
+    body istenirse degisir
+    --Overriding run time dynamic
+    body %99 degisir
+   -- final static ve private met Overload edilir ama Override edilemez
+    --Overloading inheritance gerekmez, Overriding gerekir
+   -- Overloading se istedigimiz sekilde access modifier ve return typ kullanabiliriz
+   Overriding de  access modifier ve return typ ta belli kurallara baglidir
+   SUPER: YAZARAK IKISIDE CALISIR
+   FINAL METHOD SON HALI
+
+   SIGNATURE--- METHOD ISIM VE PARAMETRE AYNI
+   ACCESS MOD PUBLIC
+
+
+
+
+
+    3-
+
+
 
 
 
