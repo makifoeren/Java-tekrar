@@ -11,6 +11,8 @@ public class C03_Set_Getindex {
 
         List<String> hayvanlar=new ArrayList<>();
 
+
+
         hayvanlar.add("kedi");
         hayvanlar.add("serce");
         hayvanlar.add("zürafa");
