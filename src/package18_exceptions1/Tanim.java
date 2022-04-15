@@ -1,4 +1,4 @@
-package package_18exceptions;
+package package18_exceptions1;
 
 public class Tanim {
 
