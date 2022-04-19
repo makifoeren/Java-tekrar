@@ -1,4 +1,4 @@
-package package19_garbage_abstractClass;
+package package19_garbage_abstractClass_Interface;
 
 public class C02_Final extends C01_Final{
 

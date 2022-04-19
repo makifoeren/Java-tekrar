@@ -1,4 +1,4 @@
-package package19_garbage_abstractClass;
+package package19_garbage_abstractClass_Interface;
 
 public abstract class C03_IlkAbstractClass {
 
