@@ -1,7 +1,9 @@
 package package10_constructor;
 
 public class Araba {
-    /* Java da her class olusturdugumuzda
+    /* 
+    ********
+    Java da her class olusturdugumuzda
      java o class tan ileride obje ler üretmek gerekecegini bilir
     ve biz özellikle belirtmesek de java her olusturdugu class a constructor koyar
 
