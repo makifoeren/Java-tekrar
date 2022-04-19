@@ -19,7 +19,14 @@ public class ArraydentekrarlarinSilme {
 
         System.out.println(Arrays.toString(arr));
 
-
+/*
+*********
+* 11111
+* 22222
+* 3334
+* 5555
+*
+ */
     }
 
     private static Integer[] benzersizYap(Integer[] arr) {
