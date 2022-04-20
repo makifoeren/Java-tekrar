@@ -32,6 +32,29 @@ public class CollectionsTanim {
     HEM LIST HEMDE QUEUE interface lerin chil di dir iksinin de method u nuda kullanir
 
 
+    SET (Interface) arana bulma hizli ise bu kullanilir küme mantigi ile calisir her elementi unique dir.
+    Java elemntleri unique yapmak icin HASH ALgorutmasi kullanir
+
+    HashSets  basamak sayisi+rakamlar toplami kendin yapabilirsin ama cakismalr olur
+    Java ayni bicimdeki elemetleri belirli kaliplarla Hash kodu ile esliyor
+
+    Hahing farkli büüyklükteki girdilerden sabit büyüklükte bir ciktiya donudturme surecine verieln isim
+    bir ogrenci no dan ogrenci simi sorgulandiginda numarasi bulunup tum bilgilere ulasilabilir
+
+    SET METhodlari
+
+    1-- add() Set e eleman ekler
+    2-- addAll(coll) istenilen collectiondaki tüm elentleri ekler
+    3-- clear tüm elenlari siler
+    4-- contains(eleman) intenen eleman sette varsa true yoksa false
+    5-- contaniansAll(coll) istenn coll tumu set te var mi
+    6-equals(set2) istenen set le tüm elemanlar ayni ise true
+    7-- isEmpty sette hic elema yoksa true
+    8-- remove(eleman) istenen eleman bulunursa siler ve true dondurur,bulmazsa false dondurur
+    9-- removeAll(coll) coll nin tum elemanlarini bulursa siler ve true dondurur, bulmazsa false
+    10- size set in elemn sayisni
+    11-- retainAll(coll)  coll nin tüm elemanlarinin disindakitüm elelmalari siler silme islmei yapti ise true,yoksa false dondurur
+
 
 
 
