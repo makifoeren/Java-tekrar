@@ -55,6 +55,19 @@ public class CollectionsTanim {
     10- size set in elemn sayisni
     11-- retainAll(coll)  coll nin tüm elemanlarinin disindakitüm elelmalari siler silme islmei yapti ise true,yoksa false dondurur
 
+     ****** QUEUE : interface dolayisiyla constructer i yoktur
+     LInkedList ve PriorityQue kullanilir hangi cos u kullansak ona göre üretir
+    En sona eklenir en bastan silenir ----> en önemki özelligi
+    1--peek ilk elemni silmaeden döndürü
+    2-- poll ilk elemani queue den siler ve bize return eder
+    3-- offer eleman eklemek icin kullanilir
+    remove ve poll ilk elemani siler ve return eder.
+    ama collection da eleman yoksa remove methodu exception atar poll methodu exception atmaz null return eder
+
+    ****DEQUE . IKI taraftan eklenir cikarilir FIFO VE LIFO
+    LinkedList kullanilir. null kabul etmiyor
+
+
 
 
 
