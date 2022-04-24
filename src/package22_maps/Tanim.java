@@ -16,19 +16,21 @@ public class Tanim {
     Ugrasi cok fakat reel projelere yapilir istediginuz kadar bilgi tutar.
     Maps key - value pairs (anahtar -deger(ler))
 
-
+    Maps
+    1- containsKey(key)
+    2- containsValue(value)
+    3- entryset
+    4- equals(Map)
+    5- get(key)
+    6- getOrDefault(key,defaultDeger)
+    7-putAll(map)
+    8- compute(key(key,value)-->yeniDeger)
+    9- compute(key(key,value) -->yenideger)
+    10- computeIfabsent(key(k-->yenideger)
+    11- putIfabsent(key, value)
+    12- size
 
      */
-
-
-
-
-
-
-
-
-
-
 
 
 }
