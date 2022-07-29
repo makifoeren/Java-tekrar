@@ -14,7 +14,8 @@ public class C05_lastIndexOf {
         String cumle="Java ogren, yeni program ile yeni bir sayfa ac";
         String kelime="yeni";
 
-        int ilkKullanim=cumle.indexOf(kelime); // 0 dan Aramaya bastan baslar index olarak kelime nerden basliyor onu verri 11
+        int ilkKullanim=cumle.indexOf(kelime); // 0 dan Aramaya bastan baslar index olarak kelime nerden
+        // basliyor onu verri 11
         int sonKullanim=cumle.lastIndexOf(kelime); // Aramaya sondan baslar - saymaya bastan basyacak  28
 
         if(ilkKullanim==-1){
